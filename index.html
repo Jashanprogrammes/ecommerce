@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology & A.I.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- cart button -->
+    <div id="header">
+        <img src="images/logo (2).png" alt="">
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+    <!-- cart button in right bottom corner-->
+    <div id="hero">
+        <div id="hero-text">
+            <h1>Super Value Deals</h1>
+            <h1><span>On all products</span></h1>
+            <h4>Save more with coupons & upto 30% off</h4>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <!--  -->
+    <div id="feature">
+        <div class="feature-container">
+            <img src="images/features/f1.png" alt="">
+            <h3>Free Shipping</h3>
+        </div>
+        <div class="feature-container">
+            <img src="images/features/f2.png" alt="">
+            <h3>Online Order</h3>
+        </div>
+        <div class="feature-container">
+            <img src="images/features/f3.png" alt="">
+            <h3>Save Money</h3>
+        </div>
+        <div class="feature-container">
+            <img src="images/features/f4.png" alt="">
+            <h3>Promotions</h3>
+        </div>
+        <div class="feature-container">
+            <img src="images/features/f5.png" alt="">
+            <h3>Happy sell</h3>
+        </div>
+        <div class="feature-container">
+            <img src="images/features/f6.png" alt="">
+            <h3>F24/7 Support</h3>
+        </div>
+    </div>
+    <div id="add-product-form">
+        <h2>Add New Product</h2>
+        <form id="product-form">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productBrand">Brand:</label>
+            <input type="text" id="productBrand" required>
+
+            <label for="productImage">Image URL:</label>
+            <input type="text" id="productImage" required>
+
+            <label for="productPrice">Price:</label>
+            <input type="text" id="productPrice" required>
+
+            <button type="button" onclick="addProduct()">Add Product</button>
+        </form>
+    </div>
+    <!-- star and cart button -->
+    <div id="feature-content"> 
+        <h1>Featured Products</h1>
+        <h3>Summer Collection New Modern Design</h3>
+        <div id="product-container" class="pro-container">
+            <!-- Product listings will be dynamically added here -->
+        </div>
+    </div>
+    
+    <!-- -->
+    <div id="banner">
+        <div id="banner-text">
+            <h4>Repair Services</h4>
+            <h1>Up to <span>70% Off</span> - All t-Shirts & Accessories</h1>
+            <button>Explore More</button>
+        </div>
+    </div>
+    <!-- star and cart button -->
+    <div id="new-arrivals"> 
+        <h1>New Arrivals</h1>
+        <h3>Summer Collection New Modern Design</h3>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n5.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n6.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n7.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n8.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h3 class="product-name">Cartoon Astronaut T-shirts</h3>
+                    <div class="star">
+
+                    </div>
+                    <h3 class="prices">$123</h3>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- text also -->
+    <div id="banner-bottom">
+        <div class="banner-bottom-1">
+            <div class="banner-bottom-text">
+                
+            <h3>Crazy Deals</h3>
+            <h1>Buy 1 get 1 Free</h1>
+            <h4>The best classic dress is on sale</h4>
+            <button>Learn More</button>
+            </div>
+        </div>
+        <div class="banner-bottom-2">
+            <div class="banner-bottom-text">
+                
+            <h3>Crazy Deals</h3>
+            <h1>Buy 1 get 1 Free</h1>
+            <h4>The best classic dress is on sale</h4>
+            <button>Learn More</button>
+            </div>
+        </div>
+        <div class="banner-bottom-3">
+            <h1>Seasonal Sale</h1>
+            <h2 style="font-family: cursive;">Winter collection</h2>
+        </div>
+        <div class="banner-bottom-4">
+            <h1>Seasonal Sale</h1>
+            <h2 style="font-family: cursive;">Winter collection</h2>
+        </div>
+        <div class="banner-bottom-5">
+            <h1>Seasonal Sale</h1>
+            <h2 style="font-family: cursive;">Winter collection</h2>
+        </div>
+    </div>
+    <!--  -->
+    <div id="newsletter">
+        <div id="newsletter-text">
+            <h1>Sign Up for Newsletter</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        </div>
+        <form action="">
+            <input type="email" name="" id="" placeholder="Your E-mail">
+            <input type="submit" value="Get Started">
+        </form>
+    </div>
+    <!--  -->
+    <!-- <div id="footer">
+        <h1 style="text-align: center;color: white;font-size: 66px;">Footer</h1>
+    </div> -->
+    <script src="https://kit.fontawesome.com/1f6e6fd7ab.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
